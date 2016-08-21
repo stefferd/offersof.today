@@ -41,7 +41,7 @@ section {
 }
 
 h1 {
-  font-size: 7.5vh;
+  font-size: 3.5em;
   line-height: 1em;
   color: rgba(0, 0, 0, .1);
   text-transform: uppercase;
@@ -65,22 +65,21 @@ h1 {
 }
 
 h2 {
-  font-size: 3.65vh;
+  font-size: 1.65em;
   color: rgba(0, 34, 18, 0.45);
   line-height: 1em;
   text-align: center;
   font-weight: 100;
   text-transform: uppercase;
   border-top: 1px solid rgba(0, 34, 18, 0.05);
-  padding-top: 0.5vh;
-  margin-top: 0.5vh;
+  padding-top: 4px;
 }
 
 section p {
   width: 80%;
-  margin: 30px auto 10px auto;
-  font-size: 2.2vh;
-  font-weight: 100;
+  margin: 10px auto;
+  font-size: 0.9em;
+  font-weight: 400;
 }
 
 footer {
@@ -94,9 +93,9 @@ footer {
   right: 0;
 
   .copy {
-    font-size: 1.5vh;
+    font-size: 0.6em;
     color: rgba(255, 255, 255, 0.8);
-    padding-top: 0.5vh;
+    padding-top: 5px;
     width: 100%;
     display: block;
     font-style: normal;
@@ -104,4 +103,22 @@ footer {
     position: relative;
     text-align: center;
   }
+}
+
+@media only screen and (max-width: 720px) {
+
+  body { font-size: 0.7em; }
+
+  footer .copy, h2 {
+    font-weight: 400;
+  }
+
+  h2 {
+    color: rgba(0, 34, 18, 0.25);
+  }
+
+  footer .copy {
+    color: #FFF;
+  }
+
 }
