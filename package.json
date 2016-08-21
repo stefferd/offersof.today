@@ -7,10 +7,9 @@
     "test": "npm run test",
     "sass": "node-sass --output-style compressed -o dist/css src/scss",
     "watch:css": "onchange 'src/scss/*.scss' -- npm run build:css",
-    "build:css": "npm run sass && npm run copy",
+    "build:css": "npm run sass",
     "serve": "browser-sync start --server --files 'dist/css/*.css, dist/js/*.js'",
     "imagemin": "imagemin src/images dist/images -p",
-    "copy": "copy src/images/* dist/images",
     "build": "npm run build:css"
   },
   "repository": {
