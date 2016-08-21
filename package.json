@@ -10,7 +10,8 @@
     "build:css": "npm run sass && npm run copy",
     "serve": "browser-sync start --server --files 'dist/css/*.css, dist/js/*.js'",
     "imagemin": "imagemin src/images dist/images -p",
-    "copy": "copy src/images/* dist/images"
+    "copy": "copy src/images/* dist/images",
+    "build": "npm run build:css"
   },
   "repository": {
     "type": "git",
