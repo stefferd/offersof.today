@@ -29,7 +29,6 @@
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "browser-sync": "^2.14.0",
-    "copy": "^0.3.0",
     "imagemin-cli": "^3.0.0",
     "node-sass": "^3.8.0",
     "onchange": "^2.5.0",
