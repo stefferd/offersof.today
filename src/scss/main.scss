@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  font: 100%/100% "Helvetica Neue", Arial, sans-serif;
+  background-color: #EFEFEF;
+  color: #323232;
+}
+
+header, section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background: url('/dist/images/header.jpg') no-repeat 0 0;
+  max-height: 16.5em;
+}
+
+h1 {
+  width: auto;
+  font-size: 3.5em;
+  line-height: 4.5em;
+  color: rgba(0, 0, 0, .1);
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  //text-shadow: 1px 1px 0 rgba(0, 0,0,.1);
+
+  .faded, .highlight {
+    font-style: normal;
+  }
+  .faded {
+    color: rgba(0, 0, 0, .4);
+  }
+
+  .highlight {
+    color: rgba(255,255, 255, .8);
+  }
+}
+
+h2 {
+  font-size: 1.65em;
+  color: rgba(0, 34, 18, 1);
+  line-height: 4.5em;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  top: -5.62em;
+}
+
+section p {
+  width: 80%;
+  margin: 10px auto;
+}
+
+footer {
+  background: rgba(1, 163, 117, 0.8);
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+  padding: 5px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .copy {
+    font-size: 0.6em;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 5px;
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+}

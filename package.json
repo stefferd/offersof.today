@@ -1,0 +1,38 @@
+{
+  "name": "offersof.today",
+  "version": "1.0.0",
+  "description": "Website to combine deals of the day provided by affiliate parties, create with angular and .net",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "sass": "node-sass --output-style compressed -o dist/css src/scss",
+    "watch:css": "onchange 'src/scss/*.scss' -- npm run build:css",
+    "build:css": "npm run sass && npm run copy",
+    "serve": "browser-sync start --server --files 'dist/css/*.css, dist/js/*.js'",
+    "imagemin": "imagemin src/images dist/images -p",
+    "copy": "copy src/images/* dist/images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefferd/offersof.today.git"
+  },
+  "keywords": [
+    "daily",
+    "offers"
+  ],
+  "author": "S. van den Berg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefferd/offersof.today/issues"
+  },
+  "homepage": "https://github.com/stefferd/offersof.today#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "browser-sync": "^2.14.0",
+    "copy": "^0.3.0",
+    "imagemin-cli": "^3.0.0",
+    "node-sass": "^3.8.0",
+    "onchange": "^2.5.0",
+    "postcss-cli": "^2.5.2"
+  }
+}
