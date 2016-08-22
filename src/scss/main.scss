@@ -66,10 +66,10 @@ h1 {
 
 h2 {
   font-size: 1.65em;
-  color: rgba(0, 34, 18, 0.45);
+  color: rgba(0, 34, 18, 0.15);
   line-height: 1em;
   text-align: center;
-  font-weight: 100;
+  font-weight: 400;
   text-transform: uppercase;
   border-top: 1px solid rgba(0, 34, 18, 0.05);
   padding-top: 4px;
@@ -109,7 +109,7 @@ footer {
 
   body { font-size: 0.7em; }
 
-  footer .copy, h2 {
+  footer .copy {
     font-weight: 400;
   }
 
